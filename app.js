@@ -47,7 +47,7 @@ app.post("/",function(req,res){
         }
         else{
            if(response.statusCode===200){
-               res.sendFile(__dirname+"/success.html");
+               res.sendFile(__dirname+"/index.html");
            }
            else{
                res.sendFile(`${__dirname}/failure.html`);
