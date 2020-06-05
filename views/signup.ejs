@@ -51,17 +51,20 @@
 </head>
 
 <body class="text-center">
+    <video src="img/Fuego_de_Refineria.mp4" autoplay muted loop></video>
     <form action="/" class="form-signin box" method="POST">
         <img class="mb-4"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAilBMVEUKDQr//f0AAAATFROYmJeTkpKIiIcvMC8ABADOzMwlJyRFRURwb2/S0dAABgD08vKmpaQgIR9YWFfu7OwqLCrk4uLc29unpqb5+Pe5uLjp6OcXGhfAv74cHxx5eXiNjo2enZx2d3ZJSUhQUVBgYF8+QD6BgYA4OTewr686OTm8u7sqKysUFBRmZWVnwYbxAAAEZklEQVR4nO3ce0OqMBjHcXi0NEvQvOQxKyvLTpf3//bONC+IY3s2GbKd3/d/i48DEYaLIoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEELobJF9ybm3nRM9Nm3rfXkgpIvYuiade+v10ZO97ylw3wV8Z+8UX+jHnxe+S/j+V9/cB987fPDVt1N8PR98j/B57Xu2993Bd/bgK+7DA1/SUQnS5xtVHvgiail8k2v1LbRzbzwnFXDy4gVBnQIYhE8BnLyG4CsGBuIrBIbiKwIG4ysAhuOTAye3Kp9mfkn/P5Mq3z0pUHmLjBZdRbOWduuT5VuFQmMgvck/lbalQ93W00uqfxdKyxRIjYEaqBfSdTyoTmgITKir8cXxQCMUwAqFhkD6o/VphStgdUIzIDUZPp1wDaxMaARkXxwrhb/AqoQmQHpl+uJ4qhBugPFgWYXQAEhD3QdoVvhVfBxfb8e5ijHkA9s05vtUY7gDViLkA2lm4ovjUZFwD6xCyAZSz8xXPIYZYAVCLtBmdmbUkR/LGaB7IRNIC3NfkfAA6FzIA9IytQHKhYdA10IWkBojK58Q9iV7+yHQsZADbNOVpU8qzAPdCjlA+rD2CeHD0f6eBzr9TsMAnvL4k2h8n9/hj4Aux1APpMUkLchOKAE6HEPGCHY6fWn33FPHODrcIyRAd09KcY7BRB7dMoE5oRTo7FFM87tq+5eygfG4nfmLIQLjceZ+aZDArDBMYEYYKHAvDBW4E9YC2GZkCtwKawCcNzqMHn4kL1VednTXwhoAT+hR+cV8LfQbeKm+9FgJfQeqpy+E0HegZoKm6z8wUQuvpFOoPgGjtkZYKbA9LB+oG0PZFIDDX65NygcK4afh69wB6a/dLU8l0FzoDJi0Fl9lCjdAY6E7YCd+LVO4BQqh0WyUw130Lr7tlyfcAQ2F7oAN6gmhwdwtFyjOFgZCd+fBZZfm8eK7LGEGaCR0dx5spFdr4bR8oInQ4TE4HKzG8IfKER4ADYQOT/T0MO1SUwhtp8gUQP7ElMvf4FM0GgvhTSnCHDAiptDpIgNE4zFdxI9lCPNArtDtKgpEsyY9da+/Z1fG5Q7dIyBT6HqZiNWdBKLEYoWcuQ7IE9Z2HYz84zMSoBDqHzL1GsgR+g1kCD0HivOhRug7UCv0Hrg62YYN1AgDAKqFIQCVwiCAKmEYwIiSImEgQHFpViAMBRhRQy4MBhjRvVQYDrBAGBBQLgwJGNHDsbC+wDtzYET9I2F9ge8WQCHM39+qLTDK3ZThAY+F9QXmhExgRJ2RL8BDIReYF9YZePBJygbmhLUGZoV8oBBOfQFmThYGwANhzYH7X/+YALPCugN3QiOgEA58AW6FZsC9sP7AjdAQuBN6APx9QM0UuBV6APwVGgM36w/4AIza9GkBFMLUE6DY1pnNhlIj9QUYkdVyXtSa+LDS+jq77aS3d1+AlvmxlCdCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgihAGoE3j97hVX6qu4+iAAAAABJRU5ErkJggg=="
             alt="" width="72" height="72">
         <h1 class="h3 mb-3 font-weight-normal">Sign up My Newsletter!</h1>
        
-        <input type="text" name="fname" class="form-control top" placeholder="First name" required autofocus autocomplete="off">
-        <input type="text" name="lname" class="form-control middle" placeholder="Last name" required autocomplete="off">
-        <input type="email" name="email" class="form-control bottom" placeholder="Email" required autocomplete="off">
+        
+        <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
+        <input type="password" name="password" class="form-control bottom" placeholder="Password" required>
        
-        <button class="btn btn-success" type="submit">Sign Me UP!</button>
+        <button class="btn btn-success" type="submit">Sign UP!</button>
+        <a class="btn btn-dark " href="/login" role="button">Login</a>
+        
         <p class="mt-5 mb-3 text-muted">&copy; SOURAV SAHA</p>
     </form>
 </body>

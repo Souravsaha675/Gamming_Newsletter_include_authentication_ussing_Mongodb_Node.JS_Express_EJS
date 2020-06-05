@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Newsletter Signup</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+
+    <script type="text/javascript"
+        src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Mgp4iod5nOjvvmSH3-eAiBAQCs6fm857T-4vb6DORHxJxxMQ-4ufrxg8skGacEGbsrLwXScs4cKZyrgnRYPe98yoTUg8VGjegXUpo7a01o0"
+        charset="UTF-8"></script>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <video src="img/Fuego_de_Refineria.mp4" autoplay muted loop></video>
+    <form action="/login" class="form-signin box" method="POST">
+        <img class="mb-4"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAilBMVEUKDQr//f0AAAATFROYmJeTkpKIiIcvMC8ABADOzMwlJyRFRURwb2/S0dAABgD08vKmpaQgIR9YWFfu7OwqLCrk4uLc29unpqb5+Pe5uLjp6OcXGhfAv74cHxx5eXiNjo2enZx2d3ZJSUhQUVBgYF8+QD6BgYA4OTewr686OTm8u7sqKysUFBRmZWVnwYbxAAAEZklEQVR4nO3ce0OqMBjHcXi0NEvQvOQxKyvLTpf3//bONC+IY3s2GbKd3/d/i48DEYaLIoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEELobJF9ybm3nRM9Nm3rfXkgpIvYuiade+v10ZO97ylw3wV8Z+8UX+jHnxe+S/j+V9/cB987fPDVt1N8PR98j/B57Xu2993Bd/bgK+7DA1/SUQnS5xtVHvgiail8k2v1LbRzbzwnFXDy4gVBnQIYhE8BnLyG4CsGBuIrBIbiKwIG4ysAhuOTAye3Kp9mfkn/P5Mq3z0pUHmLjBZdRbOWduuT5VuFQmMgvck/lbalQ93W00uqfxdKyxRIjYEaqBfSdTyoTmgITKir8cXxQCMUwAqFhkD6o/VphStgdUIzIDUZPp1wDaxMaARkXxwrhb/AqoQmQHpl+uJ4qhBugPFgWYXQAEhD3QdoVvhVfBxfb8e5ijHkA9s05vtUY7gDViLkA2lm4ovjUZFwD6xCyAZSz8xXPIYZYAVCLtBmdmbUkR/LGaB7IRNIC3NfkfAA6FzIA9IytQHKhYdA10IWkBojK58Q9iV7+yHQsZADbNOVpU8qzAPdCjlA+rD2CeHD0f6eBzr9TsMAnvL4k2h8n9/hj4Aux1APpMUkLchOKAE6HEPGCHY6fWn33FPHODrcIyRAd09KcY7BRB7dMoE5oRTo7FFM87tq+5eygfG4nfmLIQLjceZ+aZDArDBMYEYYKHAvDBW4E9YC2GZkCtwKawCcNzqMHn4kL1VednTXwhoAT+hR+cV8LfQbeKm+9FgJfQeqpy+E0HegZoKm6z8wUQuvpFOoPgGjtkZYKbA9LB+oG0PZFIDDX65NygcK4afh69wB6a/dLU8l0FzoDJi0Fl9lCjdAY6E7YCd+LVO4BQqh0WyUw130Lr7tlyfcAQ2F7oAN6gmhwdwtFyjOFgZCd+fBZZfm8eK7LGEGaCR0dx5spFdr4bR8oInQ4TE4HKzG8IfKER4ADYQOT/T0MO1SUwhtp8gUQP7ElMvf4FM0GgvhTSnCHDAiptDpIgNE4zFdxI9lCPNArtDtKgpEsyY9da+/Z1fG5Q7dIyBT6HqZiNWdBKLEYoWcuQ7IE9Z2HYz84zMSoBDqHzL1GsgR+g1kCD0HivOhRug7UCv0Hrg62YYN1AgDAKqFIQCVwiCAKmEYwIiSImEgQHFpViAMBRhRQy4MBhjRvVQYDrBAGBBQLgwJGNHDsbC+wDtzYET9I2F9ge8WQCHM39+qLTDK3ZThAY+F9QXmhExgRJ2RL8BDIReYF9YZePBJygbmhLUGZoV8oBBOfQFmThYGwANhzYH7X/+YALPCugN3QiOgEA58AW6FZsC9sP7AjdAQuBN6APx9QM0UuBV6APwVGgM36w/4AIza9GkBFMLUE6DY1pnNhlIj9QUYkdVyXtSa+LDS+jq77aS3d1+AlvmxlCdCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgihAGoE3j97hVX6qu4+iAAAAABJRU5ErkJggg=="
+            alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Sign In My Newsletter!</h1>
+
+        
+        <input type="email" name="email" class="form-control bottom" placeholder="Email" required>
+        <input type="password" name="password" class="form-control bottom" placeholder="Password" required>
+
+        
+        <button class="btn btn-success" type="submit">Sign In!</button>
+        <p class="mt-5 mb-3 text-muted">&copy; SOURAV SAHA</p>
+    </form>
+</body>
+
+</html>
