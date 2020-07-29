@@ -15,7 +15,7 @@ app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended:true}));
 
 
-mongoose.connect("mongodb+srv://admin-souravsaha675:s21072000@cluster0-tvv6o.mongodb.net/gameDB", {
+mongoose.connect("MONGOURI/gameDB", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
